@@ -25,7 +25,7 @@
    if (msg != spam) {
      if (msg.length < 60) {
        // Création de l'objet JSON a transmettre au serveur
-       let fullMsg = `{"name":"${MsgName.value}", "message":"${MsgMessage.value}"}`
+       let fullMsg = `{"name":"${nom}", "message":"${msg}"}`
        socket.emit('chat', fullMsg)
      }
    }
