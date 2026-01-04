@@ -6,6 +6,7 @@ Pour pouvoir utiliser ce projet, il suffit :
 * de le cloner avec une commande git clone lien
 * d'installer les modules utiles avec la commande npm install
 * de le lancer avec la commande node index.js
+* d'utiliser son navigateur sur http://localhost:3000
 
 ## Objectifs
 * Permettre l'usage de la bibliothèque Socket.io
